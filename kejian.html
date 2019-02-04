@@ -10,16 +10,7 @@
 		<link rel="stylesheet" href="bootstrap.min.css">
 		<link rel="shortcut icon" type="image/x-icon" href="pic/myLogo.png"/>
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<link rel="stylesheet" type="text/css" href="work.css"/>
-		<script language="JavaScript">
-			var password="";
-			password=prompt('请输入密码 (本网站需输入密码才可进入):','');
-			if (password != 'googlechallenge') 
-				{alert("密码不正确,无法进入本站!!"); 
-				window.opener=null; window.history.back(-1);}
-		</script>
-		<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/> -->
-	</head>
+		<link rel="stylesheet" type="text/css" href="work.css"/>	</head>
 	<body>
 		<nav class="navbar navbar-expand-sm navbar-light fixed-top" id="mainNav">
 	      <div class="container">
@@ -49,86 +40,15 @@
 	    </nav>
 
 		<!-- <div id="work_banner" style="background: linear-gradient(to bottom, #358DFF, #65C1FF);"> -->
-		<div id="work_banner" >
-
-			<div id="work_banner_container" style="width: 1100px; background: linear-gradient(to bottom, #358DFF, #65C1FF);">
-				<img class="work_banner_body" src="pic/banner_work1.png">
-			</div>
+		<div id="body_container" class="clearfix" style="min-height: 100%; margin-top: 80px;">
+			<embed src="kejianvr.pdf" type="application/pdf" width="100%" height="600px" />
 		</div>
-		<div id="body_container" class="clearfix">
-			<p class="heading1">Project Background</p>
-			<div class="pic_container right medium"><img src="pic/comood/ProblemBackground.png"></div>
-			<p class="body_text endpoint">Nowadays, China is facing a transition phase. In light of the success of the entrepreneurial pioneer, Alibaba, various startups are set up in different fields of area. More and more people of young generation choose to work at startups or start their own enterprise. However, studies have shown that people working in startups are experiencing immense stress from both outside (from shareholders, employees, customers, and the friends and family) and inside (self-expectation and pressure on success), much higher than those who work in other enterprises. Through this project, we attempted to dig deeper into the reasons and the impacts of the pressure and provide strategies for people working in the startups to get a balanced life.</p>
-			<!-- </div> -->
-			<p class="heading1">My Contribution</p>
-			<p class="body_text endpoint">There were 5 group members in our group and we basically contributed equally to user research, user test and ideation. I spared more efforts on presenting the KT board model, Arduino development, and Lo-Fi/Hi-Fi prototype.</p>
-			<p class="heading1">Design Process</p>
-			<img class="body_img endpoint" src="pic/comood/DesignProcess.png">
-			<p class="heading1">I.User Research</p>
-			<p class="heading2">I-01.Preliminary Research</p>
-			<p>To begin with, we tried to define all the potential pressure sources. Through the brain storm and literature review, we came up with a bunch of ideas related to the work pressure from “off work” scenarios to “at work” scenarios. Our focus was more on the “at work” scenarios, which were further divided into human factors and non-human factors.</p>
-			<img class="body_img" src="pic/comood/PreliminaryResearch.png">
-			<p class="heading2">I-02.Survey</p>
-			<p>According to the possible pressure sources we postulated, we first conducted a survey* to study the stress level distribution among employees working in startups. The results shows on the right — </p>
-			<br>
-			<ul style="margin-left: 20px">
-				<li>Most of the respondents are people of age 23~26.</li>
-				<li>Most of them just started their career within 3 years.</li>
-				<li>Though they are young, most of them could deal with their work pretty well.</li>
-				<li>Living far away from home /Being single, they seldom experience stress from family or off work scenarios.</li>
-			</ul>
-			<br>
-			<p>However, the survey results still showed that about one third of the respondents experienced sleep deprivation and other negative emotions due to their work. Based on all above, we narrowed our target down to the “at work” “human factors”. We also invited two respondents to our interview who reported that they were experiencing sleep deprivation and depression in the survey.</p>
-			<img class="body_img" src="pic/comood/Survey.png">
-			<p class="endpoint">Besides these two who experienced pressure from their work, our research also included 5 other interviewees who were employees, CEO and group leaders from Bay West Accelerator or Stoooges (a educational startup). We finally generalized two personas regarding CEO/leader and employee respectively.
-			<br><br>
-			Through interview, we got our personas and journey map which shed light on how interpersonal relationship/communication cause harmful pressure.</p>
-			<div class="endpoint" style="height: 200px;">
-				<img class="body_img_three" src="pic/comood/pic1.png">
-				<img class="body_img_three" src="pic/comood/pic2.png">
-				<img class="body_img_three" src="pic/comood/pic3.png">
+
+		<footer class="bg-dark" style="height: 40px;">
+			<div class="text-center" id="footer-container" style="padding-top: 8px;">
+			<span class="text-muted">© </span><span class="text-muted">2017</span><span class="text-muted">Johnny Gong</span>
 			</div>
-			<p class="heading1">II. Synthesis</p>
-			<p class="heading2">II-01. Persona and Inspiration</p><br>
-			<div class="row clearfix" style="height: 360px;">
-				<div class="pic_container left large"><img src="pic/comood/persona1.png"></div>
-				<p>Primary User<br><br>According to our research, we found that employees work perfectly without harmful pressure if there are supportive collaboration and friendly interpersonal relationship. Below shows some key components which helped us to identify the correlation between interpersonal relationship and harmful work pressure.</p>
-			</div>
-
-			<div class="clearfix endpoint">
-				<div style="width: 320px; float: left; padding: 20px;text-align: left;">
-					<p>Pursuit &amp; Starups’ Attraction<br>They pursue the open-minded lifestyle brought by the compact company size and flat management. Those make them access their leaders and other co-workers more frequently and directly, which help them gain rapid growth in career.<br><br>Rapid Growth in Career Path<br>They have the basic knowledge that working in startups might be exhausting. In fact, they choose to work in startups because multiple tasks and tough challenges would boost their growth in career.<br><br>Cooperation Offers Support<br>With cooperation and support from the team, basically they won’t feel powerless dealing with daily work, even though sometimes it could be overwhelming.</p>
-				</div>
-
-				<div style="width: 320px; height: 500px; float: left; padding: 20px;text-align: left; border-left: dotted 2px; border-right: dotted 2px;">
-					<p>Frustration<br>Sometimes their ideas are denied without explanation or when their works are misinterpreted. When this happens frequently, frustration will accumulation and finally lower their passion and efficiency in work which further make them anxious or angry.<br><br>Lack in Cooperation Cause Negative Impacts<br>Lack in cooperation / support and shared understanding will induce lower efficiency and frustration. Without friendly and relaxing interpersonal interaction in workplace, even a seemingly easy task would induce reluctance and aversion. </p>
-				</div>
-			
-
-				<div style="width: 320px; float: left; border-radius: 5px;padding: 20px;text-align: left;">
-					<p>Small Talks Promote Relief<br>Sometimes when they experience frustration due to their leaders. Talking to other employees would help a lot in reliving negative stress and retrieving high work efficiency. It works especially when they both are dissatisfied with someone.<br><br>Sharing Encourages Positive Communication<br>They share snacks with their co-workers. By doing this they can easily initiate some simple and easy small talks which let them know each other more and bring positive mood.<br><br>Long-lasting Stress Leads to Leaving<br>When those frustration and lack in cooperation last for long time, they turn into mistrust and long-term harmful stress. Those will finally force them to leave the startup.</p>
-				</div>
-			</div>
-
-			<div class="row clearfix" style="height: 360px;">
-				<div class="pic_container left large"><img src="pic/comood/persona2.png"></div>
-				<p>Secondary User<br>Compared to those who works in established companies, bosses/founders in startups are more likely to deal with overwhelming and various tasks which break up their attentions for each employee. Meanwhile, a more close interpersonal distance with their employees makes the impacts of interpersonal relationship sharper and more direct.</p>
-			</div>
-
-			<p class="endpoint">Secondary User<br>Compared to those who works in established companies, bosses/founders in startups are more likely to deal with overwhelming and various tasks which break up their attentions for each employee. Meanwhile, a closer interpersonal distance with their employees makes the impacts of interpersonal relationship sharper and more direct.</p>
-
-			<p class="heading2">II-02.User Journey Map</p><br>
-			<div class="pic_container right medium"><img src="pic/comood/JourneyMap.png"></div>
-			<p class="body_text endpoint">After we discovered that failures in interpersonal relationship and communication might be the pressure sources, we focused more on exploring the problems in all kinds of communication including small talk as well as meetings. By formulating the journey map we noticed how bad interpersonal relationship and communication would finally cause unsolvable and harmful pressure.<br><br>Through journey map, we figured out how bad interpersonal relationship and communication patterns reflect on employees' behaviors and how those behaviors then impact their work and finally their mental health.<br><br>We saw a few of the behaviors and impacts of bad interpersonal relationship patterns as the pain points. By mediating these behaviors and impacts, we wanted to facilitate communication at startup workplace to finally eliminate the potential pressure source. All those pain points indicated 3 main goals for our design tasks shown below. Finally, we converged them into "HOW MIGHT WE create an open and friendly working environment (physical &amp; mental) to facilitate communication?"</p>
-
-			
-
-		</div>
-		<div id="footer">
-			<div id="footer-container">
-			<span>©</span><span class="bolder">2017</span><span>Johnny Gong</span>
-			</div>
-		</div>
+		</footer>
 
 				    <!-- Bootstrap core JavaScript -->
     <script src="jquery.min.js"></script>
