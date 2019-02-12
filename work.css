@@ -55,7 +55,6 @@ body{
 	background-color: #F2F4F9;
 	width: 100%;
 	margin: auto;
-	color: #2F3D69;
 }
 
 .body-container-block-center{
@@ -76,6 +75,12 @@ body{
 	font-family: DIN-Black;
 }
 
+.heading1-light{
+	color: #2F3D69;
+	font-size: 32px;
+	font-family: DIN-Black;
+}
+
 .heading2{
 	font-size: 28px;
 	margin-bottom: 10px;
@@ -87,6 +92,10 @@ body{
 
 .text-white{
 	color: white;
+}
+
+.text-lightblue{
+	color: #2F3D69;
 }
 
 
