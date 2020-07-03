@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: DIN-regular;
+	src: url("/font/DIN-RegularAlternate.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: DIN-Black;
+	src: url("/font/DIN-BlackAlternate.otf");
+	font-weight: bolder;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: DIN-Bold;
+	src: url("/font/DIN-Bold.otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*reset*/
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	font-family: DIN-Regular;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.clearfix: after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.clearfix{
+	*zoom:1;
+}
+
+#main-nav li{
+	padding-top: 25px;
+}
+
+#project-nav li{
+	padding-bottom: 20px;
+	width: 200px;
+}
+
+#project-nav{
+	margin-top: 40px;
+	width: 200px;
+	font-weight: 600;
+}
+
+li{
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover path{
+	stroke-opacity: 1;
+}
+
+a:hover text{
+	text-decoration: none;
+}
+
+a[xlink|href]{text-decoration:none;}
+
+#project-nav a{
+	padding: 5px 10px;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+#project-nav a:hover {
+	border: 2px solid;
+}
+
+.links{
+	color: #bbb;
+}
+
+.non-active {
+	opacity:0.5;
+}
+
+.active {
+	color: black;
+}
+
+.tag {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 3px 12px 5px 12px;
+	border: black;
+	height: 32px;
+	border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.project {
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 80px;
+	line-height: 420px;
+}
+
+.project img{
+	width: 400px;
+	vertical-align: middle;
+}
+
+.project p {
+	color: white;
+}
+
+.projectintro {
+	float: left;
+	border-radius: 3px;
+	background-color: black;
+	width: 360px;
+	position: relative;
+	bottom: 200px;
+	left: 20px;
+	/*display: none;*/
+}
+
+.projecttitle {
+	color: white;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 800;
+	padding: 30px 30px 0 30px;
+}
+
+.projecttag {
+	text-align: center;
+	float: left;
+	padding: 6px 10px 0 10px;
+	border-radius: 3px;
+	background-color: black;
+	height: 30px;
+	position: relative;
+	bottom: 50px;
+	left: 20px;
+	display: block;
+	line-height: 16px;
+}
+
+.tag_low{
+	margin: -10px 10px 10px 0;
+}
+
+.tag_high {
+	margin: -60px 10px 10px 0;
+}
+
+.intro_low{
+	margin: -10px 10px 10px 0;
+}
+
+.intro_high{
+	margin: -60px 10px 10px 0;
+}
+
+.intro_xhigh{
+	margin: -80px 10px 10px 0;
+}
+
+.intro_small {
+	height: 180px;
+}
+
+.intro_large{
+	height: 200px;
+}
+
+.projectcategory {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 30px 30px 0 30px;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+.bulletpoint {
+	text-indent: 30%;
+}

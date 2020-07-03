@@ -147,5 +147,25 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="scrolling-nav.js"></script>
+    
+    <script type="text/javascript">
+	    var projectBlock = document.getElementById("project");
+	    var tagDiv = document.getElementById("projecttag");
+	    var introDiv = document.getElementById("projectintro");
+
+	    projectBlock.onmouseover = function(){mouseOver()};
+	    projectBlock.onmouseout = function(){mouseOut()};
+
+	    function mouseOver() {
+	      tagDiv.style.display = "none";
+	      introDiv.style.display = "block";
+	    }
+
+	    function mouseOut() {
+	      tagDiv.style.display = "block";
+	      introDiv.style.display = "none";
+	    }
+
+	  </script>
 
 </body></html>

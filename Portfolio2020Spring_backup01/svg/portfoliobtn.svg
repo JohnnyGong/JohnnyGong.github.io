@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="40px" viewBox="0 0 126 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>portfoliobtn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M63,38.5 C95.182114,38.5 105.432232,38.0765675 113.377753,35.904254 C121.718583,33.6238627 124.5,29.5143438 124.5,20 C124.5,10.4856562 121.718583,6.37613734 113.377753,4.09574597 C105.432232,1.92343254 95.182114,1.5 63,1.5 C30.817886,1.5 20.5677676,1.92343254 12.6222466,4.09574597 C4.28141658,6.37613734 1.5,10.4856562 1.5,20 C1.5,29.5143438 4.28141658,33.6238627 12.6222466,35.904254 C20.5677676,38.0765675 30.817886,38.5 63,38.5 Z" id="portfoliobtn" stroke="#000000" stroke-width="3" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: DIN-regular;
+	src: url("/font/DIN-RegularAlternate.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: DIN-Black;
+	src: url("/font/DIN-BlackAlternate.otf");
+	font-weight: bolder;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: DIN-Bold;
+	src: url("/font/DIN-Bold.otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*reset*/
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	font-family: DIN-Regular;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.clearfix: after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.clearfix{
+	*zoom:1;
+}
+
+li {
+	padding-top: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover path{
+	stroke-opacity: 1;
+}
+
+a:hover text{
+	text-decoration: none;
+}
+
+a[xlink|href]{text-decoration:none;}
+
+.tag {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 3px 12px 5px 12px;
+	border: black;
+	height: 32px;
+	border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.project {
+	width: 420px;
+	height: 420px;
+	line-height: 400px;
+	margin-right: 50px;
+	margin-bottom: 80px;
+	float: left;
+}
+
+.project img{
+	width: 400px;
+	vertical-align: middle;
+}
+

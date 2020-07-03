@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+  <style type="text/css">
+    #project {
+      width: 400px;
+      height: 400px;
+      background-color: #eee;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      padding-top: 7px;
+    }
+  </style>
+</head>
+
+<body>
+	<div id="project">
+    <div id="projectintro" style="background-color: black; width: 140px; height: 100px; position: relative; bottom: 30px; left: 20px; display: none;">
+      <p>
+        This is an introduction.
+      </p>
+    </div>
+		<div id="projecttag" style="background-color: black; width: 70px; height: 30px; position: relative; bottom: 30px; left: 20px; display: block;">
+			<p>Brand</p>
+		</div>
+	</div>
+
+  <script type="text/javascript">
+    var projectBlock = document.getElementById("project");
+    var tagDiv = document.getElementById("projecttag");
+    var introDiv = document.getElementById("projectintro");
+
+    projectBlock.onmouseover = function(){mouseOver()};
+    projectBlock.onmouseout = function(){mouseOut()};
+
+    function mouseOver() {
+      tagDiv.style.display = "none";
+      introDiv.style.display = "block";
+    }
+
+    function mouseOut() {
+      tagDiv.style.display = "block";
+      introDiv.style.display = "none";
+    }
+
+  </script>
+</body>
+</html>
