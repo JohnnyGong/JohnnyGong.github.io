@@ -2,21 +2,21 @@
 
 @font-face{
 	font-family: DIN-regular;
-	src: url("/font/DIN-RegularAlternate.otf");
+	src: url("font/DIN-RegularAlternate.otf");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: DIN-Black;
-	src: url("/font/DIN-BlackAlternate.otf");
+	src: url("font/DIN-BlackAlternate.otf");
 	font-weight: bolder;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: DIN-Bold;
-	src: url("/font/DIN-Bold.otf");
+	src: url("font/DIN-Bold.otf");
 	font-weight: bold;
 	font-style: normal;
 }
